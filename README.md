@@ -3,7 +3,7 @@ This repository contains an implementation of the AES-RSA encryption and decrypt
 
 # Libraries
 
-- AES: The Advanced Encryption Standard (AES) is a symmetric-key encryption algorithm designed to provide strong encryption and confidentiality of data.
+- <b>AES</b>: The Advanced Encryption Standard (AES) is a symmetric-key encryption algorithm designed to provide strong encryption and confidentiality of data.
 It operates on fixed block sizes of 128 bits and uses a variable-length key of 128, 192, or 256 bits. Since AES algorithm is a symmetric key cipher, the same key is used for both encryption and decryption.
 To implement AES in our program we used Crypto.Cipher library that provide encryption and decryption using various modes of operation such as Electronic Codebook (ECB), Cipher Block Chaining (CBC), and Galois Counter Mode (GCM). 
 We used the Cipher Block Chaining (CBC) mode for our AES encryption and decryption, which operates as shown in the figure below.
