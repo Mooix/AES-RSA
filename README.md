@@ -8,7 +8,7 @@ It operates on fixed block sizes of 128 bits and uses a variable-length key of 1
 To implement AES in our program we used Crypto.Cipher library that provide encryption and decryption using various modes of operation such as Electronic Codebook (ECB), Cipher Block Chaining (CBC), and Galois Counter Mode (GCM). 
 We used the Cipher Block Chaining (CBC) mode for our AES encryption and decryption, which operates as shown in the figure below.
 
-![alt text]([http://url/to/img.png](https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/CBC_encryption.svg/600px-CBC_encryption.svg.png))
+![alt CBC_Mode](CBC_mode.png)
  
 In CBC mode, each plaintext block is XORed with the previous ciphertext block before encryption. 
 The first plaintext block is XORed with a random initialization vector (IV) before encryption. 
